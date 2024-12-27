@@ -28,6 +28,7 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
+        platforms: linux/amd64,linux/arm64  # 添加多平台支持
         tags: |
           xihashking/simple-http-demo:latest
           xihashking/simple-http-demo:${{ github.sha }} 

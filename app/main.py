@@ -5,7 +5,7 @@ class SimpleHandler(BaseHTTPRequestHandler):
         self.send_response(200)
         self.send_header('Content-type', 'text/plain')
         self.end_headers()
-        self.wfile.write(b'Hello World! v4')
+        self.wfile.write(b'Hello World! v5')
 
 def run_server(port=8000):
     server_address = ('', port)

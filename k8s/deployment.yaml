@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: simple-http-demo
-        image: simple-http-demo:latest
+        image: xihashking/simple-http-demo:latest
         ports:
         - containerPort: 8000
 ---
